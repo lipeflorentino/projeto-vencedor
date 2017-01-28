@@ -6,21 +6,27 @@
 	<meta charset="utf-8">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <title>Trippers - viaje pelo mundo</title>
 </head>
 
 <BODY>
     <header id="h-header">
-        <div class="h-logo">
-            <img src="img/logo.png">
+        <div class="h-container">
+            <div class="h-logo">
+                
+            </div>
+            <nav>
+                <ul id="animation-2">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Viagens</a></li>
+                </ul>
+            </nav>
         </div>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#contact">Sobre</a></li>
-          <li><a href="#about">Destinos</a></li>
-        </ul>
+         
     </header>
+    
 	<section id="p-sessao">
         
 	</section>
@@ -31,5 +37,39 @@
 	<footer id="h-footer">
 		
 	</footer>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript">
+	$(document).ready(function(){
+		//	#animation-1 	
+		$("#animation-1 li a").hover(
+		function(){
+			$(this).animate({ textIndent: "30px" }, 500 );
+ 
+		},function(){
+			$(this).animate({ textIndent: "0px" }, 500 );
+		});
+		//	#animation-2 	
+		$("#animation-2 li a").hover(
+		function(){
+			$(this).parent().parent().find("li").addClass("off");
+			$(this).parent().removeClass("off");
+			$(this).animate({ width: "250px" }, 500 );
+		},function(){
+			$(this).parent().parent().find("li").removeClass("off");
+			$(this).animate({ width: "200px" }, 500 );
+		});	
+		//	#animation-3 
+		$("#animation-3 li").append("<span></span>");
+		$("#animation-3 li a").hover(
+		function(){
+			$(this).next("span").animate({ top: "0px" }, 500 );
+		},function(){
+			$(this).next("span").animate({ top: "45px" }, 500 );
+		});	
+ 
+	});
+</script>
+
+    <script src="js/menu.js"></script>
 	</BODY>
 </HTML>
