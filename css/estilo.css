@@ -1,0 +1,14 @@
+/*-------css geral------*/
+html{width: 100%;height: 100%;}
+body{width: 100%;height: 100%;}
+* {margin: 0;padding: 0;}
+
+
+/*-------dim do css geral------*/
+/*-------css da header------*/
+#h-header{text-align: center;width: 100%;height: 100%;background-size: auto;background-position: center;}
+ul {list-style: none;margin: 0;padding-left: 25%;padding-right: 25%;padding-top: 40px;}
+li a {display: block;padding: 8px 16px;color: grey;text-align: center;font-size: 1.8em;font-family: 'Open Sans', sans-serif;}
+li a:hover {background-color: lightgray;color: white;opacity: 0.5;text-decoration: none}
+
+/*----fim do css da header--*/
