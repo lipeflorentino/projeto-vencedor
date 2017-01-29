@@ -41,12 +41,15 @@ ul li {margin-bottom: .5em;}
 /*----fim do css da header--*/
 
 /*----css da primeira sessao--*/
-#p-sessao{padding-top: 80px;padding-bottom: 80px; width: 100%;max-height: 100%;text-align: center;}
-.ps-img{width: 200px;height: 200px;}
+#p-sessao{padding-top: 80px;padding-bottom: 80px; width: 100%;text-align: center;}
+.ps-img{width: 250px;height: 250px;}
 .ps-tittle{text-align: center;}
 .ps-circle{padding-left: 5%; padding-top: 70px;padding-bottom: 70px;}
-#price { display: none; }
-#some-div:hover #price { display: block; }
+.image-wrapper {position: relative;height: 300px;width: 300px;margin:20px;border-radius: 100%;overflow: hidden;display: inline-block;}
+.image-wrapper img {height: 100%;width: 100%;}
+.image-wrapper .image-overlay {position: absolute;top: 0;right: 0;bottom: 0;left: 0;background-color: rgba(123, 98, 21,.25);color: #fff;display: none;}
+.image-wrapper:hover .image-overlay {display: block;}
+.image-wrapper .image-overlay .content {position: absolute;top: 50%;left: 50%;height: 20px;width: 150px;margin-top: -10px;margin-left: -75px;}
 
 @media screen and (max-width: 766px){
 	.ps-circle{padding-left: 0px; padding-top: 20px;}
@@ -54,6 +57,6 @@ ul li {margin-bottom: .5em;}
 /*----fim do css da primeira sessao--*/
 
 /*----css da segunda sessao--*/
-#s-sessao{background-image: url("../img/back5.jpg"); background-size: cover;text-align: center;width: 100%;height: 100%;}
+#s-sessao{background-image: url("../img/back5.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
 
 /*----fim do css da segunda sessao--*/
