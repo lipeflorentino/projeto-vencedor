@@ -3,6 +3,7 @@ html{width: 100%;height: 100%;}
 body{width: 100%;height: 100%;font-family: 'Arimo', sans-serif;}
 * {margin: 0;padding: 0;list-style: none}
 #centro {height:300px;position:absolute;top:50%;left:50%;margin-top:-50px;margin-left:-50px;}
+.linha::after{clear:both}
 
 
 /*-------dim do css geral------*/
@@ -32,3 +33,11 @@ ul li { margin-bottom: .5em}
 #animation-3 li span {position: absolute;display: block;height: 35px;width: 200px;background-color: #e1e1e1;top: 35px;left: 0;z-index: -1}
 
 /*----fim do css da header--*/
+
+/*----css da primeira sessao--*/
+#p-sessao{padding: 30px;padding-top: 80px; width: 100%;height: 100%;}
+.ps-img{width: 300px;height: 300px;}
+.ps-tittle{text-align: center;}
+.ps-circle{padding-top: 70px;}
+
+/*----fim do css da primeira sessao--*/
