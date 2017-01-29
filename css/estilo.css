@@ -41,28 +41,19 @@ ul li {margin-bottom: .5em;}
 /*----fim do css da header--*/
 
 /*----css da primeira sessao--*/
-#p-sessao{padding: 30px;padding-top: 80px;width: 100%;max-height: 100%;text-align: center;width: 100%;height: 78%;}
+#p-sessao{padding-top: 80px;padding-bottom: 80px; width: 100%;max-height: 100%;text-align: center;}
 .ps-img{width: 200px;height: 200px;}
 .ps-tittle{text-align: center;}
-.ps-circle{padding-left: 5%; padding-top: 70px;}
-.flip-container {perspective: 1000px;}
-.flip-container:hover .flipper, .flip-container.hover .flipper {transform: rotateY(180deg);}
-.flip-container, .front, .back {width: 320px;height: 320px;}
-.flipper {transition: 0.6s;transform-style: preserve-3d;position: relative;}
-.front, .back {backface-visibility: hidden;position: absolute;top: 0;left: 0;}
-.front {z-index: 2;transform: rotateY(0deg);}
-.back {transform: rotateY(180deg);}
+.ps-circle{padding-left: 5%; padding-top: 70px;padding-bottom: 70px;}
+#price { display: none; }
+#some-div:hover #price { display: block; }
+
 @media screen and (max-width: 766px){
 	.ps-circle{padding-left: 0px; padding-top: 20px;}
 }
 /*----fim do css da primeira sessao--*/
 
 /*----css da segunda sessao--*/
-#s-sessao{background-image: url("../img/back5.jpg"); background-size: cover;padding-top: 20px;padding-bottom:20px; width: 100%;height: 100%;text-align: center;}
-.h-content{padding: 0 5%;}
-.hc-container{background-color: lightgray;text-align: left;margin-top: 80px;margin-bottom: 80px;}
-.hc-container .col-md-4{padding: 0 0 0 0;}
-.ss-img{width: 100%;height: 300px;}
-.textbox{padding: 5% 5%;}
+#s-sessao{background-image: url("../img/back5.jpg"); background-size: cover;text-align: center;width: 100%;height: 100%;}
 
 /*----fim do css da segunda sessao--*/
