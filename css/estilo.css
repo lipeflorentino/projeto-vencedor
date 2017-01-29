@@ -52,7 +52,7 @@ transform: rotateY(0deg);}
 /*----fim do css da primeira sessao--*/
 
 /*----css da segunda sessao--*/
-#s-sessao{background-image: url("../img/mochileiro.jpg");padding: 30px;padding-top: 80px;padding-bottom:0px; width: 100%;height: 100%;text-align: center;width: 100%;background-image:url("../img/.png");opacity: 0.9;height: 100%;background-size: cover;}
+#s-sessao{background-image: url("../img/back6.jpg"); background-size: cover;padding: 30px;padding-top: 20px;padding-bottom:0px; width: 100%;height: 100%;text-align: center;}
 .h-content{padding: 0 5%;}
 .hc-container{background-color: lightgray;height: 100%;text-align: left;margin-top: 80px;margin-bottom: 80px;}
 .hc-container .col-md-4{padding: 0 0 0 0;}
