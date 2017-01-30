@@ -73,5 +73,18 @@ ul li {margin-bottom: .5em;}
 #h-footer{padding-top:1%;padding-bottom:1%;}
 .i-imagem{padding-left:10px;}
 .description{text-align:center;padding-top:2.6%;font-size:17.5px;}
+@media screen and (max-width: 769px){
+	.description{font-size:14px;}
+	.i-imagem{padding-left: 44%;}
+	.desenvolvimento p{text-align:center;}
+}
+@media screen and (max-width: 426px){
+	.description{font-size:13px;}
+	.i-imagem{padding-left: 39%;}
+}
+@media screen and (max-width: 350px){
+	.description{font-size:13px;}
+	.i-imagem{padding-left: 37%;}
+}
 
 /*----fim do css do footer---*/
