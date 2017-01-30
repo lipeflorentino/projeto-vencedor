@@ -40,7 +40,7 @@ ul li {margin-bottom: .5em;}
 /*----fim do css da header--*/
 
 /*----css da primeira sessao--*/
-#p-sessao{background-image: url("../img/back2.jpg"); background-size: cover;padding-bottom: 80px; width: 100%;text-align: center;}
+#p-sessao{background-size: cover;padding-bottom: 80px; width: 100%;text-align: center;}
 .ps-img{width: 250px;height: 250px;}
 .ps-tittle{text-align: center;padding-top: 80px;}
 .ps-title h2,h3{font-family: 'Arimo', sans-serif;}
