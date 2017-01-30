@@ -4,7 +4,7 @@ body{width: 100%;height: 100%;font-family: 'Arimo', sans-serif;}
 footer{background-color:rgba(36,42,48,0.9); color:#E5E5E5;}
 * {margin: 0;padding: 0;list-style: none}
 .row{padding: 0px;}
-.centro {height:400px;position:absolute;top:25%;left:50%;margin-top:-10px;margin-left:-50px;}
+.centro {height:400px;position:absolute;top:25%;left:45%;margin-top:-10px;margin-left:-50px;}
 .center{text-align: center;padding-top: 20%;}
 .clearfix:before, .clearfix:after {content: "";display: table;}
 .clearfix::after {clear: both;}
@@ -12,7 +12,7 @@ footer{background-color:rgba(36,42,48,0.9); color:#E5E5E5;}
 h2{margin: 0px;padding: 0px;color: azure;}
 p{color: beige;}
 .bgParallax {color:#FFF;margin: 0 auto;width: 100%;max-width: 1920px;position: relative;min-height: 100%;background-position: 50% 0;background-repeat: repeat;background-attachment: fixed;}
-
+.colored-line{background: rgba(255,162,0,1.00);margin: auto;display: block;width: 80px;height: 2px;margin-top: 20px;}
 /*-------fim do css geral------*/
 
 
@@ -70,6 +70,7 @@ ul li {margin-bottom: .5em;}
 #t-sessao{background-image: url("../img/back7.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
 .ts-tittle h2{font-size:36px;}
 #t-header{background-image: url("../img/back8.jpg"); background-size: cover;}
+.t-center{text-align: center;padding-top: 5%;padding-left: 15%;}
 
 
 /*----css da v sessao---*/
@@ -87,16 +88,17 @@ ul li {margin-bottom: .5em;}
 
 
 /*----css da g sessao---*/
-#g-sessao{text-align: center;width: 100%;height: 400px;background-color: #778a96;height: 400px;}
+#g-sessao{text-align: center;width: 100%;height: 700px;background-color: #778a96;}
+#g-sessao h1{margin: 0;color: white;padding: 80px 0px 20px 0px;}
 .bgParallax-g {color:#FFF;margin: 0 auto;width: 100%;max-width: 1920px;position: relative;min-height: 100%;background-position: 50% 0;background-repeat: repeat;background-attachment: fixed;}
-.swiper-container {width: 100%;padding-top: 50px;padding-bottom: 50px;}
+.swiper-container {width: 100%;padding-top: 80px;padding-bottom: 80px;}
 .swiper-slide {background-position: center;background-size: cover;width: 300px;height: 300px;}
 
 
 /*----css do footer---*/
-#h-footer{padding-top:1%;padding-bottom:1%;border-top:1px solid gray;}
+#h-footer{padding-top:1%;padding-bottom:1%;}
 .hf-content{text-align: center;}
-.description{text-align:center;padding-top:2.6%;font-size:14px;}
+.description{text-align:center;padding-top:2%;font-size:12px;}
 
 /*----css de media querys---*/
 @media screen and (max-width: 769px){
