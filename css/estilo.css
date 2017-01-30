@@ -4,7 +4,7 @@ body{width: 100%;height: 100%;font-family: 'Arimo', sans-serif;}
 footer{background-color:rgba(36,42,48,0.9); color:#E5E5E5;}
 * {margin: 0;padding: 0;list-style: none}
 .row{padding: 0px;}
-.centro {height:400px;position:absolute;top:35%;left:50%;margin-top:-10px;margin-left:-50px;}
+.centro {height:400px;position:absolute;top:25%;left:50%;margin-top:-10px;margin-left:-50px;}
 .center{text-align: center;padding-top: 20%;}
 .clearfix:before, .clearfix:after {content: "";display: table;}
 .clearfix::after {clear: both;}
@@ -23,6 +23,7 @@ p{color: beige;}
 .h-container{}
 .h-menu{opacity: 0.7;}
 .h-nav{}
+.hs-img img{width: 200px;height: 200px}
 .h-tittle h1{padding-left: 6.4%; padding-top: 6.5%;font-size: 70px;color: #5a440f; text-decoration: underline;}
 a:hover, a:focus{color: #FFD65D;text-decoration: none;}
 a {overflow: hidden;color: #fff;text-decoration: none;}
@@ -30,17 +31,8 @@ a {overflow: hidden;color: #fff;text-decoration: none;}
 ul {margin-bottom: 25px;}
 ul li {margin-bottom: .5em;}
 /* #animation-1 */
-#animation-1 li{width: 200px;}
-#animation-1 li a {display: inline-block;padding: 10px 5px;width:190px;background-color: #fcd38d;}
-/* #animation-2 */
-#animation-2 li a {display: block;padding:  10px 5px;width: 200px;background-color: #7B6215;}
-#animation-2 .off a{background-color: #7B6215;}
-/* #animation-3 */
-#animation-3 {width: 200px}
-#animation-3 li{border: 1px solid #e1e1e1;height: 32px;overflow: hidden;position: relative;}
-#animation-3 li a{display: inline-block;padding:  7px 5px;color: #6F6F6F;background-color:#7B6215;}
-#animation-3 li span {position: absolute;display: block;height: 35px;width: 200px;background-color: #e1e1e1;top: 35px;left: 0;z-index: -1}
-
+#animation-2 li a {display: block;padding:  10px 5px;width: 250px;background-color: #7B6215;transition: 0.5s;cursor: pointer;}
+#animation-2 a:hover{background-color: #7B6215;width: 300px;}
 /*----fim do css da header--*/
 
 /*----css da p sessao--*/
@@ -70,8 +62,7 @@ ul li {margin-bottom: .5em;}
 .ss-rect img{width: 250px;height: 150px;}
 .ss-img{width: 100%;height: 100%;padding: 5px;}
 .citation{padding: 30px}
-.ss-rect:hover{-webkit-transform: scale(1.3);-ms-transform: scale(1.3);transform: scale(1.3);-webkit-animation: rodaroda 0.5s linear alternate;}
-
+.ss-rect:hover{-webkit-transform: scale(1.3);-ms-transform: scale(1.3);transform: scale(1.3);transition: 1s;cursor: pointer;}
 
 /*----css da t sessao---*/
 #t-sessao{background-image: url("../img/back7.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
