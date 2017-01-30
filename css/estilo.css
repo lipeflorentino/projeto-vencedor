@@ -57,13 +57,14 @@ ul li {margin-bottom: .5em;}
 
 /*----css da segunda sessao---*/
 #s-sessao{background-image: url("../img/back5.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
-.ss-content{padding-left: 20%;padding-right: 20%;padding-bottom: 80px;}
+.ss-content{padding-left: 25%;padding-right: 25%;padding-bottom: 80px;}
 .ss-tittle{text-align: center;padding-top: 80px;padding-bottom: 120px;}
 .ss-rect{background-color: lightgray;margin-bottom: 80px;display: inline-block;}
 .ss-rect cite{text-align: justify;}
 .ss-rect img{width: 250px;height: 150px;}
 .ss-img{width: 100%;height: 100%;padding: 5px;}
 .citation{padding: 30px}
+.ss-rect:hover{-webkit-transform: scale(1.3);-ms-transform: scale(1.3);transform: scale(1.3);-webkit-animation: rodaroda 0.5s linear alternate;}
 
 
 /*----fim do css da segunda sessao--*/
