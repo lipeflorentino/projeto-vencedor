@@ -6,8 +6,7 @@ footer{background-color:rgba(36,42,48,0.9); color:#E5E5E5;}
 .row{padding: 0px;}
 .centro {height:400px;position:absolute;top:25%;left:45%;margin-top:-10px;margin-left:-50px;}
 .center{text-align: center;padding-top: 20%;}
-.clearfix:before, .clearfix:after {content: "";display: table;}
-.clearfix::after {clear: both;}
+.clearfix::after{clear: both;}
 .linha::after {clear: both;}
 h2{margin: 0px;padding: 0px;color: azure;}
 p{color: beige;}
@@ -79,8 +78,8 @@ ul li {margin-bottom: .5em;}
 
 
 /*----css da r sessao---*/
-#r-sessao{text-align: center;width: 100%;height: 300px;background-color: rgba(36,42,48,0.9);}
-.rs-content{display: inline-block;width: 100%;height: 100%;}
+#r-sessao{text-align: center;width: 100%;background-color: rgba(36,42,48,0.9);}
+.rs-content{display: inline-block;width: 100%;min-height: 100%;}
 .box{font-size: 20px;color: white;text-align: center;display: inline-block;width: 300px; height: 250px;padding:80px 40px;}
 .rs-img{width: 60px;height: 60px;}
 
