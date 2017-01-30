@@ -5,7 +5,7 @@ footer{background-color:rgba(36,42,48,0.9); color:#E5E5E5;}
 * {margin: 0;padding: 0;list-style: none}
 .row{padding: 0px;}
 .centro{height: 100%;min-height: 100%;display: -webkit-flex;display: flex;-webkit-align-items: center;align-items: center;-webkit-justify-content: center;justify-content: center;}
-.centro div {padding: 40px;}
+.centro div {padding: 20px;}
 .center{text-align: center;padding-top: 20%;}
 .clearfix::after{clear: both;}
 .linha::after {clear: both;}
@@ -31,8 +31,8 @@ a {overflow: hidden;color: #fff;text-decoration: none;}
 ul {margin-bottom: 25px;}
 ul li {margin-bottom: .5em;}
 /* #animation-1 */
-#animation-2 li a {display: block;padding:  10px 5px;width: 200px;background-color: #7B6215;transition: 0.5s;cursor: pointer;}
-#animation-2 a:hover{background-color: #7B6215;width: 300px;}
+#animation-2 li a {display: block;padding:  10px 5px;width: 180px;background-color: #7B6215;transition: 0.5s;cursor: pointer;}
+#animation-2 a:hover{background-color: #7B6215;width: 200px;}
 .nav ul {list-style: none;background-color: #7B6215;text-align: center;padding: 0;margin: 0;}
 .nav li {line-height: 20px;height: 30px;border-bottom: 1px solid #FFD65D;}
 .nav a {text-decoration: none;color: #fff;display: block;transition: .3s background-color;}
@@ -124,7 +124,9 @@ ul li {margin-bottom: .5em;}
 @media screen and (max-width: 425px){
     .image-wrapper{width: 200px;height: 200px;}
     .description{font-size:12px;}
-    .centro {left:30%;}
+    #animation-2 li a {width: 150px;}
+    #animation-2 a:hover{width: 100px;}
+    .centro div {padding: 35px;}
 }
 @media screen and (max-width: 991px){
 	.ps-circle{padding-left: 0px; padding-top: 20px;}
