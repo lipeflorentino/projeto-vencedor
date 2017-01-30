@@ -44,7 +44,7 @@ ul li {margin-bottom: .5em;}
 /*----fim do css da header--*/
 
 /*----css da p sessao--*/
-#p-sessao{padding-bottom: 20px; width: 100%;text-align: center;background-color:#7B6215; }
+#p-sessao{padding-bottom: 20px; width: 100%;text-align: center;background-color:rgba(212,165,70,.65); }
 .ps-img{width: 250px;height: 250px;}
 .ps-tittle h2{padding-top: 80px;font-style: italic;}
 .ps-title h2,h3,p{font-family: 'Arimo', sans-serif;text-align: center;margin-top: 0px;color:white;}
@@ -61,7 +61,7 @@ ul li {margin-bottom: .5em;}
 }
 
 /*----css da s sessao---*/
-#s-sessao{background-color:#7B6215;text-align: center;width: 100%;min-height: 100%;}
+#s-sessao{background-color: rgba(212,165,70,.65);text-align: center;width: 100%;min-height: 100%;}
 .ss-content{padding-left: 25%;padding-right: 25%;padding-bottom: 80px;}
 .ss-tittle{text-align: center;padding-top: 80px;padding-bottom: 120px;}
 .ss-tittle h2{font-size:36px;font-style: italic;}
