@@ -13,8 +13,8 @@
 <BODY>
     <header>
         <div class="centro h-container">
-            <div class="h-logo">
-                
+            <div class="hs-img">
+              <img src="img/LogoTripers2.png" alt="aguas-claras" class="img-responsive">      
             </div>
             
             <nav class="h-nav">
@@ -33,6 +33,7 @@
         <section id="g-sessao">
             <div class="gs-content">
                 
+                
             </div>
         </section>
     </section>
@@ -44,37 +45,7 @@
     
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
     <script src="js/menu.js"></script>
-    <script type="text/javascript">
-	   $(document).ready(function(){
-		//	#animation-1 	
-		$("#animation-1 li a").hover(
-		function(){
-			$(this).animate({ textIndent: "30px" }, 500 );
- 
-		},function(){
-			$(this).animate({ textIndent: "0px" }, 500 );
-		});
-		//	#animation-2 	
-		$("#animation-2 li a").hover(
-		function(){
-			$(this).parent().parent().find("li").addClass("off");
-			$(this).parent().removeClass("off");
-			$(this).animate({ width: "250px" }, 500 );
-		},function(){
-			$(this).parent().parent().find("li").removeClass("off");
-			$(this).animate({ width: "200px" }, 500 );
-		});	
-		//	#animation-3 
-		$("#animation-3 li").append("<span></span>");
-		$("#animation-3 li a").hover(
-		function(){
-			$(this).next("span").animate({ top: "0px" }, 500 );
-		},function(){
-			$(this).next("span").animate({ top: "45px" }, 500 );
-		});	
- 
-	});
-    </script>
+    
 </BODY>
     
 </html>    
