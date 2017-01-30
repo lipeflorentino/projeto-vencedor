@@ -11,12 +11,12 @@
 </head>
 
 <BODY>
-    <header id="h-header">
+    <header id="h-header" class="bgParallax" data-speed="10">
         <div id="centro" class="h-container">
             <div class="h-logo">
                 
             </div>
-            <div class="h-tittle"><h1>TRIPPERS</h1></div>
+            
             <nav class="h-nav">
                 <ul id="animation-2" class="h-menu">
                     <li><a href="#">Home</a></li>
@@ -28,7 +28,7 @@
          
     </header>
     
-	<section id="p-sessao">
+	<section id="p-sessao" class="bgParallax" data-speed="15">
         <div class="ps-tittle">
             <h2>Lorem ipsum is a dummy text</h2>
             <h3>created by dummy people</h3>
@@ -64,7 +64,11 @@
         </div>
     </section>
     
-    <section id="s-sessao">
+    <section id="t-sessao" class="bgParallax" data-speed="10">
+    
+    </section>
+    
+    <section id="s-sessao" class="bgParallax" data-speed="10">
         <div class="ss-content">
             <div class="ss-tittle">
                 <h2>Lorem ipsum is a dummy text</h2>
@@ -108,6 +112,10 @@
             </div>
         </div>
 	</section>
+    
+    <section id="q-sessao" class="bgParallax" data-speed="10">
+    
+    </section>
 	
 	<footer id="h-footer">
 		<div class="row">
@@ -158,6 +166,23 @@
  
 	});
 </script>
+    
+    <script>
+    $(document).ready(function(){
+      $('div.bgParallax').each(function(){
+        var $obj = $(this);
+
+        $(window).scroll(function() {
+            var yPos = -($(window).scrollTop() / $obj.data('speed')); 
+
+            var bgpos = '50% '+ yPos + 'px';
+
+            $obj.css('background-position', bgpos );
+
+            }); 
+        });
+    });
+    </script>
 
     <script src="js/menu.js"></script>
 	</BODY>
