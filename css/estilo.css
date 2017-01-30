@@ -76,6 +76,7 @@ ul li {margin-bottom: .5em;}
 /*----css da t sessao---*/
 #t-sessao{background-image: url("../img/back7.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
 .ts-tittle h2{font-size:36px;}
+#t-header{background-image: url("../img/back8.jpg"); background-size: cover;}
 
 
 /*----css da v sessao---*/
@@ -87,6 +88,13 @@ ul li {margin-bottom: .5em;}
 
 /*----css da r sessao---*/
 #r-sessao{text-align: center;width: 100%;height: 400px;background-color: rgba(36,42,48,0.9);}
+
+
+/*----css da g sessao---*/
+#g-sessao{text-align: center;width: 100%;height: 400px;background-color: rgba(36,42,48,0.9);height: 400px;}
+.bgParallax-g {color:#FFF;margin: 0 auto;width: 100%;max-width: 1920px;position: relative;min-height: 100%;background-position: 50% 0;background-repeat: repeat;background-attachment: fixed;}
+.swiper-container {width: 100%;padding-top: 50px;padding-bottom: 50px;}
+.swiper-slide {background-position: center;background-size: cover;width: 300px;height: 300px;}
 
 
 /*----css do footer---*/
