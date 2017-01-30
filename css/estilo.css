@@ -80,7 +80,10 @@ ul li {margin-bottom: .5em;}
 
 
 /*----css da r sessao---*/
-#r-sessao{text-align: center;width: 100%;height: 400px;background-color: rgba(36,42,48,0.9);}
+#r-sessao{text-align: center;width: 100%;height: 300px;background-color: rgba(36,42,48,0.9);}
+.rs-content{display: inline-block;width: 100%;height: 100%;}
+.box{font-size: 20px;color: white;text-align: center;display: inline-block;width: 300px; height: 250px;padding:80px 40px;}
+.rs-img{width: 60px;height: 60px;}
 
 
 /*----css da g sessao---*/
