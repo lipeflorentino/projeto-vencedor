@@ -4,7 +4,8 @@ body{width: 100%;height: 100%;font-family: 'Arimo', sans-serif;}
 footer{background-color:rgba(36,42,48,0.9); color:#E5E5E5;}
 * {margin: 0;padding: 0;list-style: none}
 .row{padding: 0px;}
-.centro {height:400px;position:absolute;top:25%;left:45%;margin-top:-10px;margin-left:-50px;}
+.centro{height: 100%;min-height: 100%;display: -webkit-flex;display: flex;-webkit-align-items: center;align-items: center;-webkit-justify-content: center;justify-content: center;}
+.centro div {padding: 40px;}
 .center{text-align: center;padding-top: 20%;}
 .clearfix::after{clear: both;}
 .linha::after {clear: both;}
@@ -19,7 +20,7 @@ p{color: beige;}
 #h-header{text-align: center;width: 100%;background-image: url("../img/mochileiro.jpg");opacity: 0.9;height: 100%;background-size: cover;}
 .h-logo{float: left;}
 .h-logo img{height: 60px;width: 60px;}
-.h-container{}
+.h-container{width: 100%;height: 100%;}
 .h-menu{opacity: 0.7;}
 .h-nav{}
 .hs-img img{width: 200px;height: 200px}
@@ -30,7 +31,7 @@ a {overflow: hidden;color: #fff;text-decoration: none;}
 ul {margin-bottom: 25px;}
 ul li {margin-bottom: .5em;}
 /* #animation-1 */
-#animation-2 li a {display: block;padding:  10px 5px;width: 250px;background-color: #7B6215;transition: 0.5s;cursor: pointer;}
+#animation-2 li a {display: block;padding:  10px 5px;width: 200px;background-color: #7B6215;transition: 0.5s;cursor: pointer;}
 #animation-2 a:hover{background-color: #7B6215;width: 300px;}
 .nav ul {list-style: none;background-color: #7B6215;text-align: center;padding: 0;margin: 0;}
 .nav li {line-height: 20px;height: 30px;border-bottom: 1px solid #FFD65D;}
@@ -115,17 +116,17 @@ ul li {margin-bottom: .5em;}
 .description{text-align:center;padding-top:2%;font-size:12px;}
 
 /*----css de media querys---*/
-@media screen and (max-width: 769px){
+@media screen and (max-width: 768px){
 	.description{font-size:13px;}
 	.desenvolvimento p{text-align:center;}
 }
-@media screen and (max-width: 426px){
-	.description{font-size:12px;}
+
+@media screen and (max-width: 425px){
+    .image-wrapper{width: 200px;height: 200px;}
+    .description{font-size:12px;}
+    .centro {left:30%;}
 }
-@media screen and (max-width: 350px){
-	.description{font-size:12px;}
-}
-@media screen and (max-width: 766px){
+@media screen and (max-width: 991px){
 	.ps-circle{padding-left: 0px; padding-top: 20px;}
 }
 @media screen and (min-width: 600px) {
