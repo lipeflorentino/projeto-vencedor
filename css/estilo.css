@@ -5,6 +5,7 @@ body{width: 100%;height: 100%;font-family: 'Arimo', sans-serif;}
 #centro {height:400px;position:absolute;top:35%;left:50%;margin-top:-10px;margin-left:-50px;}
 .clearfix:before, .clearfix:after {content: "";display: table;}
 .clearfix::after {clear: both;}
+.linha::after {clear: both;}
 
 /*-------fim do css geral------*/
 
@@ -55,8 +56,13 @@ ul li {margin-bottom: .5em;}
 
 /*----css da segunda sessao--*/
 #s-sessao{background-image: url("../img/back5.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
-.ss-content{}
-.ss-tittle{text-align: center;padding-top: 80px;}
+.ss-content{padding-left: 20%;padding-right: 20%;padding-bottom: 80px;}
+.ss-tittle{text-align: center;padding-top: 80px;padding-bottom: 80px;}
+.ss-rect{background-color: lightgray;margin-bottom: 50px;display: inline-block;}
+.ss-rect cite{text-align: justify;}
+.ss-rect img{width: 250px;height: 150px;}
+.ss-img{width: 100%;height: 100%;padding: 5px;}
+.citation{padding: 30px}
 
 
 /*----fim do css da segunda sessao--*/
