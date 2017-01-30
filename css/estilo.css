@@ -69,8 +69,6 @@ ul li {margin-bottom: .5em;}
 /*----css da t sessao---*/
 #t-sessao{background-image: url("../img/back7.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
 .ts-tittle h2{font-size:36px;}
-#t-header{background-image: url("../img/back8.jpg"); background-size: cover;}
-.t-center{text-align: center;padding-top: 5%;padding-left: 15%;}
 
 
 /*----css da v sessao---*/
@@ -86,18 +84,28 @@ ul li {margin-bottom: .5em;}
 .box{font-size: 20px;color: white;text-align: center;display: inline-block;width: 300px; height: 250px;padding:80px 40px;}
 .rs-img{width: 60px;height: 60px;}
 
+/*----css da PAGINA TRIPS---*/
+
+/*----css da j sessao---*/
+#j-header{background-image: url("../img/back8.jpg");background-size: cover;background-position: center;width: 100%;height: 350px}
+.j-center{text-align: center;padding-top: 0%;padding-left: 15%;}
 
 /*----css da g sessao---*/
 #g-sessao{text-align: center;width: 100%;height: 700px;background-color: #778a96;}
 #g-sessao h1{margin: 0;color: white;padding: 80px 0px 20px 0px;}
-.bgParallax-g {color:#FFF;margin: 0 auto;width: 100%;max-width: 1920px;position: relative;min-height: 100%;background-position: 50% 0;background-repeat: repeat;background-attachment: fixed;}
 .swiper-container {width: 100%;padding-top: 80px;padding-bottom: 80px;}
-.swiper-slide {background-position: center;background-size: cover;width: 300px;height: 300px;}
+.swiper-slide {background-position: center;background-size: cover; width: 300px;height: 300px;}
+
+/*----css da PAGINA SOBRE---*/
+
+/*----css da k sessao---*/
+#k-header{background-image: url("../img/back2.jpg");background-size: cover;background-position: center; width: 100%;height: 350px}
 
 
 /*----css do footer---*/
 #h-footer{padding-top:1%;padding-bottom:1%;}
-.hf-content{text-align: center;}
+.hf-content{text-align: center;padding:0px 22%;}
+.hf-box{border-top:1px solid gray;padding-top: 20px;}
 .description{text-align:center;padding-top:2%;font-size:12px;}
 
 /*----css de media querys---*/
