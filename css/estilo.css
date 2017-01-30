@@ -1,12 +1,16 @@
 /*-------css geral------*/
 html{width: 100%;height: 100%;}
 body{width: 100%;height: 100%;font-family: 'Arimo', sans-serif;}
-footer{background-color:#434b55; color:#E5E5E5;}
+footer{background-color:rgba(36,42,48,0.9); color:#E5E5E5;}
 * {margin: 0;padding: 0;list-style: none}
-#centro {height:400px;position:absolute;top:35%;left:50%;margin-top:-10px;margin-left:-50px;}
+.row{padding: 0px;}
+.centro {height:400px;position:absolute;top:35%;left:50%;margin-top:-10px;margin-left:-50px;}
+.center{text-align: center;padding-top: 20%;}
 .clearfix:before, .clearfix:after {content: "";display: table;}
 .clearfix::after {clear: both;}
 .linha::after {clear: both;}
+h2{margin: 0px;padding: 0px;color: azure;}
+p{color: beige;}
 .bgParallax {color:#FFF;margin: 0 auto;width: 100%;max-width: 1920px;position: relative;min-height: 100%;background-position: 50% 0;background-repeat: repeat;background-attachment: fixed;}
 
 /*-------fim do css geral------*/
@@ -39,11 +43,12 @@ ul li {margin-bottom: .5em;}
 
 /*----fim do css da header--*/
 
-/*----css da primeira sessao--*/
-#p-sessao{background-size: cover;padding-bottom: 80px; width: 100%;text-align: center;}
+/*----css da p sessao--*/
+#p-sessao{padding-bottom: 20px; width: 100%;text-align: center;background-color:#7B6215; }
 .ps-img{width: 250px;height: 250px;}
-.ps-tittle{text-align: center;padding-top: 80px;}
-.ps-title h2,h3{font-family: 'Arimo', sans-serif;}
+.ps-tittle h2{padding-top: 80px;font-style: italic;}
+.ps-title h2,h3,p{font-family: 'Arimo', sans-serif;text-align: center;margin-top: 0px;color:white;}
+.ps-tittle p{padding: 40px 25% 20px 25%;}
 .ps-circle{padding-left: 5%; padding-top: 70px;padding-bottom: 70px;}
 .image-wrapper {position: relative;height: 300px;width: 300px;margin:20px;border-radius: 100%;overflow: hidden;display: inline-block;}
 .image-wrapper img {height: 100%;width: 100%;}
@@ -54,12 +59,12 @@ ul li {margin-bottom: .5em;}
 @media screen and (max-width: 766px){
 	.ps-circle{padding-left: 0px; padding-top: 20px;}
 }
-/*----fim do css da primeira sessao--*/
 
-/*----css da segunda sessao---*/
-#s-sessao{background-image: url("../img/back5.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
+/*----css da s sessao---*/
+#s-sessao{background-color:#7B6215;text-align: center;width: 100%;min-height: 100%;}
 .ss-content{padding-left: 25%;padding-right: 25%;padding-bottom: 80px;}
 .ss-tittle{text-align: center;padding-top: 80px;padding-bottom: 120px;}
+.ss-tittle h2{font-size:36px;font-style: italic;}
 .ss-rect{background-color: lightgray;margin-bottom: 80px;display: inline-block;}
 .ss-rect cite{text-align: justify;}
 .ss-rect img{width: 250px;height: 150px;}
@@ -68,34 +73,33 @@ ul li {margin-bottom: .5em;}
 .ss-rect:hover{-webkit-transform: scale(1.3);-ms-transform: scale(1.3);transform: scale(1.3);-webkit-animation: rodaroda 0.5s linear alternate;}
 
 
-/*----fim do css da segunda sessao--*/
-
-/*----css da terceira sessao---*/
+/*----css da t sessao---*/
 #t-sessao{background-image: url("../img/back7.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
+.ts-tittle h2{font-size:36px;}
 
-/*----fim do css da segunda sessao--*/
 
-/*----css da quarta sessao---*/
-#q-sessao{background-image: url("../img/back9.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
+/*----css da v sessao---*/
+#v-sessao{background-image: url("../img/back6.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
+.vs-content{padding-top: 80px;padding-left: 25%;padding-right: 25%;}
+.vs-tittle h2{font-size:36px;}
+.vs-tittle p{font-size: 18px;padding: 20px;}
 
-/*----fim do css da segunda sessao--*/
+
+/*----css da r sessao---*/
+#r-sessao{text-align: center;width: 100%;height: 400px;background-color: rgba(36,42,48,0.9);}
+
 
 /*----css do footer---*/
-#h-footer{padding-top:1%;padding-bottom:1%;}
-.i-imagem{padding-left:10px;}
-.description{text-align:center;padding-top:2.6%;font-size:17.5px;}
+#h-footer{padding-top:1%;padding-bottom:1%;border-top:1px solid gray;}
+.hf-content{text-align: center;}
+.description{text-align:center;padding-top:2.6%;font-size:14px;}
 @media screen and (max-width: 769px){
-	.description{font-size:14px;}
-	.i-imagem{padding-left: 44%;}
+	.description{font-size:13px;}
 	.desenvolvimento p{text-align:center;}
 }
 @media screen and (max-width: 426px){
-	.description{font-size:13px;}
-	.i-imagem{padding-left: 39%;}
+	.description{font-size:12px;}
 }
 @media screen and (max-width: 350px){
-	.description{font-size:13px;}
-	.i-imagem{padding-left: 37%;}
+	.description{font-size:12px;}
 }
-
-/*----fim do css do footer---*/
