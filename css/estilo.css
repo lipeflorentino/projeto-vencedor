@@ -7,6 +7,7 @@ footer{background-color:black; color:#E5E5E5;}
 .clearfix:before, .clearfix:after {content: "";display: table;}
 .clearfix::after {clear: both;}
 .linha::after {clear: both;}
+.bgParallax {color:#FFF;margin: 0 auto;width: 100%;max-width: 1920px;position: relative;min-height: 100%;background-position: 50% 0;background-repeat: repeat;background-attachment: fixed;}
 
 /*-------fim do css geral------*/
 
@@ -39,7 +40,7 @@ ul li {margin-bottom: .5em;}
 /*----fim do css da header--*/
 
 /*----css da primeira sessao--*/
-#p-sessao{padding-bottom: 80px; width: 100%;text-align: center;}
+#p-sessao{background-image: url("../img/back8.jpg"); background-size: cover;padding-bottom: 80px; width: 100%;text-align: center;}
 .ps-img{width: 250px;height: 250px;}
 .ps-tittle{text-align: center;padding-top: 80px;}
 .ps-title h2,h3{font-family: 'Arimo', sans-serif;}
@@ -56,7 +57,7 @@ ul li {margin-bottom: .5em;}
 /*----fim do css da primeira sessao--*/
 
 /*----css da segunda sessao---*/
-#s-sessao{background-image: url("../img/back5.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
+#s-sessao{background-image: url("../img/back8.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
 .ss-content{padding-left: 25%;padding-right: 25%;padding-bottom: 80px;}
 .ss-tittle{text-align: center;padding-top: 80px;padding-bottom: 120px;}
 .ss-rect{background-color: lightgray;margin-bottom: 80px;display: inline-block;}
@@ -66,6 +67,16 @@ ul li {margin-bottom: .5em;}
 .citation{padding: 30px}
 .ss-rect:hover{-webkit-transform: scale(1.3);-ms-transform: scale(1.3);transform: scale(1.3);-webkit-animation: rodaroda 0.5s linear alternate;}
 
+
+/*----fim do css da segunda sessao--*/
+
+/*----css da terceira sessao---*/
+#t-sessao{background-image: url("../img/back7.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
+
+/*----fim do css da segunda sessao--*/
+
+/*----css da quarta sessao---*/
+#q-sessao{background-image: url("../img/back9.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
 
 /*----fim do css da segunda sessao--*/
 
