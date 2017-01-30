@@ -1,10 +1,17 @@
 /*-------css geral------*/
 html{width: 100%;height: 100%;}
 body{width: 100%;height: 100%;font-family: 'Arimo', sans-serif;}
+footer{background-color:rgba(36,42,48,0.9); color:#E5E5E5;}
 * {margin: 0;padding: 0;list-style: none}
-#centro {height:300px;position:absolute;top:30%;left:50%;margin-top:-50px;margin-left:-50px;}
+.row{padding: 0px;}
+.centro {height:400px;position:absolute;top:35%;left:50%;margin-top:-10px;margin-left:-50px;}
+.center{text-align: center;padding-top: 20%;}
 .clearfix:before, .clearfix:after {content: "";display: table;}
 .clearfix::after {clear: both;}
+.linha::after {clear: both;}
+h2{margin: 0px;padding: 0px;color: azure;}
+p{color: beige;}
+.bgParallax {color:#FFF;margin: 0 auto;width: 100%;max-width: 1920px;position: relative;min-height: 100%;background-position: 50% 0;background-repeat: repeat;background-attachment: fixed;}
 
 /*-------fim do css geral------*/
 
@@ -16,7 +23,7 @@ body{width: 100%;height: 100%;font-family: 'Arimo', sans-serif;}
 .h-container{}
 .h-menu{opacity: 0.7;}
 .h-nav{}
-.h-tittle h1{padding: 50px 0;font-size: 42px;color: #fff;}
+.h-tittle h1{padding-left: 6.4%; padding-top: 6.5%;font-size: 70px;color: #5a440f; text-decoration: underline;}
 a:hover, a:focus{color: #FFD65D;text-decoration: none;}
 a {overflow: hidden;color: #fff;text-decoration: none;}
 #all {width: 775px;margin: 20px auto;}	 
@@ -34,35 +41,65 @@ ul li {margin-bottom: .5em;}
 #animation-3 li a{display: block;padding:  7px 5px;color: #6F6F6F;background-color:#7B6215;}
 #animation-3 li span {position: absolute;display: block;height: 35px;width: 200px;background-color: #e1e1e1;top: 35px;left: 0;z-index: -1}
 
-@media screen and (max-width: 766px){
-	
-}
-
 /*----fim do css da header--*/
 
-
-/*----css da primeira sessao--*/
-#p-sessao{padding-bottom: 80px; width: 100%;text-align: center;}
+/*----css da p sessao--*/
+#p-sessao{padding-bottom: 20px; width: 100%;text-align: center;background-color:#7B6215; }
 .ps-img{width: 250px;height: 250px;}
-.ps-tittle{text-align: center;padding-top: 80px;}
+.ps-tittle h2{padding-top: 80px;font-style: italic;}
+.ps-title h2,h3,p{font-family: 'Arimo', sans-serif;text-align: center;margin-top: 0px;color:white;}
+.ps-tittle p{padding: 40px 25% 20px 25%;}
 .ps-circle{padding-left: 5%; padding-top: 70px;padding-bottom: 70px;}
 .image-wrapper {position: relative;height: 300px;width: 300px;margin:20px;border-radius: 100%;overflow: hidden;display: inline-block;}
 .image-wrapper img {height: 100%;width: 100%;}
-.image-wrapper .image-overlay {position: absolute;top: 0;right: 0;bottom: 0;left: 0;background-color: rgba(123, 98, 21,.25);color: #fff;display: none;}
+.image-wrapper .image-overlay {position: absolute;top: 0;right: 0;bottom: 0;left: 0;background-color: rgba(19,135,118,.30);color:#fff;display: none;}
 .image-wrapper:hover .image-overlay {display: block;}
-.image-wrapper .image-overlay .content {position: absolute;top: 50%;left: 50%;height: 20px;width: 150px;margin-top: -10px;margin-left: -75px;}
+.image-wrapper .image-overlay .content {position: absolute;top: 36%;left: 50%;height: 20px;width: 150px;margin-top: -10px;margin-left: -75px;}
 
 @media screen and (max-width: 766px){
 	.ps-circle{padding-left: 0px; padding-top: 20px;}
 }
-/*----fim do css da primeira sessao--*/
 
-/*----css da segunda sessao--*/
-#s-sessao{background-image: url("../img/back5.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
-.ss-content{}
-.ss-tittle{text-align: center;padding-top: 80px;}
+/*----css da s sessao---*/
+#s-sessao{background-color:#7B6215;text-align: center;width: 100%;min-height: 100%;}
+.ss-content{padding-left: 25%;padding-right: 25%;padding-bottom: 80px;}
+.ss-tittle{text-align: center;padding-top: 80px;padding-bottom: 120px;}
+.ss-tittle h2{font-size:36px;font-style: italic;}
+.ss-rect{background-color: lightgray;margin-bottom: 80px;display: inline-block;}
+.ss-rect cite{text-align: justify;}
+.ss-rect img{width: 250px;height: 150px;}
+.ss-img{width: 100%;height: 100%;padding: 5px;}
+.citation{padding: 30px}
+.ss-rect:hover{-webkit-transform: scale(1.3);-ms-transform: scale(1.3);transform: scale(1.3);-webkit-animation: rodaroda 0.5s linear alternate;}
 
-/*----fim do css da segunda sessao--*/
+
+/*----css da t sessao---*/
+#t-sessao{background-image: url("../img/back7.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
+.ts-tittle h2{font-size:36px;}
 
 
-/*http://pt.wix.com/website-template/view/html/1722?originUrl=http%3A%2F%2Fpt.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fall%2F3&bookName=&galleryDocIndex=1&category=all
+/*----css da v sessao---*/
+#v-sessao{background-image: url("../img/back6.jpg"); background-size: cover;text-align: center;width: 100%;min-height: 100%;}
+.vs-content{padding-top: 80px;padding-left: 25%;padding-right: 25%;}
+.vs-tittle h2{font-size:36px;}
+.vs-tittle p{font-size: 18px;padding: 20px;}
+
+
+/*----css da r sessao---*/
+#r-sessao{text-align: center;width: 100%;height: 400px;background-color: rgba(36,42,48,0.9);}
+
+
+/*----css do footer---*/
+#h-footer{padding-top:1%;padding-bottom:1%;border-top:1px solid gray;}
+.hf-content{text-align: center;}
+.description{text-align:center;padding-top:2.6%;font-size:14px;}
+@media screen and (max-width: 769px){
+	.description{font-size:13px;}
+	.desenvolvimento p{text-align:center;}
+}
+@media screen and (max-width: 426px){
+	.description{font-size:12px;}
+}
+@media screen and (max-width: 350px){
+	.description{font-size:12px;}
+}

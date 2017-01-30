@@ -11,12 +11,12 @@
 </head>
 
 <BODY>
-    <header id="h-header">
-        <div id="centro" class="h-container">
+    <header id="h-header" class="bgParallax" data-speed="10">
+        <div class="centro h-container">
             <div class="h-logo">
                 
             </div>
-            <div class="h-tittle"><h1>TRIPPERS</h1></div>
+            
             <nav class="h-nav">
                 <ul id="animation-2" class="h-menu">
                     <li><a href="#">Home</a></li>
@@ -30,8 +30,8 @@
     
 	<section id="p-sessao">
         <div class="ps-tittle">
-            <h2>Lorem ipsum is a dummy text</h2>
-            <h3>created by dummy people</h3>
+            <h2>Nunca foi tão fácil viajar.</h2>
+            <p>Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar o seu próprio conteúdo.</p>
         </div>
         <div class="ps-circle">
             <div class="image-wrapper">
@@ -64,21 +64,74 @@
         </div>
     </section>
     
+    <section id="t-sessao" class="bgParallax" data-speed="10">
+        <div class="ts-tittle">
+            <h2 class="center">Viva mais. Viaje mais.</h2>
+        </div>
+    </section>
+    
     <section id="s-sessao">
         <div class="ss-content">
             <div class="ss-tittle">
-            <h2>Lorem ipsum is a dummy text</h2>
-            <h3>created by dummy people because they dont have anything better to do</h3>
-        </div>
+                <h2>Conheça nossas histórias.</h2>
+            </div>
+            <div class="ss-rect">
+                <div class="row">    
+                    <div class="col-xs-12 col-md-4">
+                        <div class="ss-img"><img src="img/mulher.jpg" alt="" class="img-thumbnail"></div>
+                    </div> 
+                    <div class="col-xs-12 col-md-8">
+                        <div class="citation">
+                            <cite>"Lorem ipsum carmen tripum solem mundem a todem momentum. Lorem ipsum carmen tripum solem mundem a todem momentum."</cite>
+                        </div>
+                    </div>  
+                </div> 
+            </div>
+            <div class="ss-rect">
+                <div class="row">    
+                    <div class="col-xs-12 col-md-8">
+                        <div class="citation">
+                            <cite>"Lorem ipsum carmen tripum solem mundem a todem momentum. Lorem ipsum carmen tripum solem mundem a todem momentum. Lorem ipsum carmen tripum."</cite>
+                        </div>
+                    </div>  
+                    <div class="col-xs-12 col-md-4">
+                        <div class="ss-img"><img src="img/homem.jpg" alt="" class="img-thumbnail"></div>
+                    </div>
+                </div> 
+            </div>
         </div>
 	</section>
-	
+    
+    <section id="v-sessao" class="bgParallax" data-speed="10">
+        <div class="vs-tittle">
+            <h2 class="center">Descubra novos horizontes.</h2>
+        </div>
+    </section>
+    
+    <section id="r-sessao">
+        <div class="rs-content">
+            
+        </div>
+    </section>
+    	
 	<footer id="h-footer">
-		
+		<div class="hf-content">
+			<div class="description">
+				<p>Copyright &#169; 2017 - TRIPPERS - Todos os direitos reservados</p>
+			</div>
+            <div class="imagem">
+                <div class="desenvolvimento">
+                    <p>Desenvolvido por:</p>
+                </div>
+                <div>
+                <img src="img/logoin.png" alt="logo-in" class="hf-img">
+                </div>
+            </div>
+		</div>
 	</footer>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
     <script type="text/javascript">
-	$(document).ready(function(){
+	   $(document).ready(function(){
 		//	#animation-1 	
 		$("#animation-1 li a").hover(
 		function(){
@@ -107,7 +160,24 @@
 		});	
  
 	});
-</script>
+    </script>
+    
+    <script>
+        $(document).ready(function(){
+      $('div.bgParallax').each(function(){
+        var $obj = $(this);
+
+        $(window).scroll(function() {
+            var yPos = -($(window).scrollTop() / $obj.data('speed')); 
+
+            var bgpos = '50% '+ yPos + 'px';
+
+            $obj.css('background-position', bgpos );
+
+            }); 
+        });
+    });
+    </script>
 
     <script src="js/menu.js"></script>
 	</BODY>
