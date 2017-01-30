@@ -2,7 +2,7 @@
 html{width: 100%;height: 100%;}
 body{width: 100%;height: 100%;font-family: 'Arimo', sans-serif;}
 * {margin: 0;padding: 0;list-style: none}
-#centro {height:300px;position:absolute;top:30%;left:50%;margin-top:-50px;margin-left:-50px;}
+#centro {height:400px;position:absolute;top:35%;left:50%;margin-top:-10px;margin-left:-50px;}
 .clearfix:before, .clearfix:after {content: "";display: table;}
 .clearfix::after {clear: both;}
 
@@ -16,7 +16,7 @@ body{width: 100%;height: 100%;font-family: 'Arimo', sans-serif;}
 .h-container{}
 .h-menu{opacity: 0.7;}
 .h-nav{}
-.h-tittle h1{padding: 50px 0;font-size: 42px;color: #fff;}
+.h-tittle h1{padding-left: 6.4%; padding-top: 6.5%;font-size: 70px;color: #5a440f; text-decoration: underline;}
 a:hover, a:focus{color: #FFD65D;text-decoration: none;}
 a {overflow: hidden;color: #fff;text-decoration: none;}
 #all {width: 775px;margin: 20px auto;}	 
@@ -34,23 +34,19 @@ ul li {margin-bottom: .5em;}
 #animation-3 li a{display: block;padding:  7px 5px;color: #6F6F6F;background-color:#7B6215;}
 #animation-3 li span {position: absolute;display: block;height: 35px;width: 200px;background-color: #e1e1e1;top: 35px;left: 0;z-index: -1}
 
-@media screen and (max-width: 766px){
-	
-}
-
 /*----fim do css da header--*/
-
 
 /*----css da primeira sessao--*/
 #p-sessao{padding-bottom: 80px; width: 100%;text-align: center;}
 .ps-img{width: 250px;height: 250px;}
 .ps-tittle{text-align: center;padding-top: 80px;}
+.ps-title h2,h3{font-family: 'Arimo', sans-serif;}
 .ps-circle{padding-left: 5%; padding-top: 70px;padding-bottom: 70px;}
 .image-wrapper {position: relative;height: 300px;width: 300px;margin:20px;border-radius: 100%;overflow: hidden;display: inline-block;}
 .image-wrapper img {height: 100%;width: 100%;}
-.image-wrapper .image-overlay {position: absolute;top: 0;right: 0;bottom: 0;left: 0;background-color: rgba(123, 98, 21,.25);color: #fff;display: none;}
+.image-wrapper .image-overlay {position: absolute;top: 0;right: 0;bottom: 0;left: 0;background-color: rgba(19,135,118,.30);color:#fff;display: none;}
 .image-wrapper:hover .image-overlay {display: block;}
-.image-wrapper .image-overlay .content {position: absolute;top: 50%;left: 50%;height: 20px;width: 150px;margin-top: -10px;margin-left: -75px;}
+.image-wrapper .image-overlay .content {position: absolute;top: 36%;left: 50%;height: 20px;width: 150px;margin-top: -10px;margin-left: -75px;}
 
 @media screen and (max-width: 766px){
 	.ps-circle{padding-left: 0px; padding-top: 20px;}
