@@ -42,7 +42,7 @@ ul li {margin-bottom: .5em;}
 /*----fim do css da header--*/
 
 /*----css da p sessao--*/
-#p-sessao{padding-bottom: 20px; width: 100%;text-align: center;background-color:rgba(212,165,70,.65); }
+#p-sessao{padding-bottom: 20px; width: 100%;text-align: center;background-color:rgba(212,165,70,.65);}
 .ps-img{width: 250px;height: 250px;}
 .ps-tittle h2{padding-top: 80px;font-style: italic;}
 .ps-title h2,h3,p{font-family: 'Arimo', sans-serif;text-align: center;margin-top: 0px;color:white;}
@@ -50,7 +50,7 @@ ul li {margin-bottom: .5em;}
 .ps-circle{padding-left: 5%; padding-top: 70px;padding-bottom: 70px;}
 .image-wrapper {position: relative;height: 300px;width: 300px;margin:20px;border-radius: 100%;overflow: hidden;display: inline-block;}
 .image-wrapper img {height: 100%;width: 100%;}
-.image-wrapper .image-overlay {position: absolute;top: 0;right: 0;bottom: 0;left: 0;background-color: rgba(19,135,118,.30);color:#fff;display: none;}
+.image-wrapper .image-overlay {position: absolute;top: 0;right: 0;bottom: 0;left: 0;background-color: skyblue;opacity: 0.9; color:#fff;display: none;}
 .image-wrapper:hover .image-overlay {display: block;}
 .image-wrapper .image-overlay .content {position: absolute;top: 36%;left: 50%;height: 20px;width: 150px;margin-top: -10px;margin-left: -75px;}
 
@@ -100,6 +100,13 @@ ul li {margin-bottom: .5em;}
 
 /*----css da k sessao---*/
 #k-header{background-image: url("../img/back2.jpg");background-size: cover;background-position: center; width: 100%;height: 350px}
+.ks-circle{padding-left: 0%; padding-top: 100px;padding-bottom: 70px;}
+.image-wrapper-k {position: relative;height: 250px;width: 250px;margin:20px 90px;border-radius: 100%;overflow: hidden;display: inline-block;transition: 1s;}
+.image-wrapper-k img {height: 100%;width: 100%;transition: 1s;}
+.image-wrapper-k .image-overlay {position: absolute;top: 0;right: 0;bottom: 0;left: 0;background-color: lightblue;color:#fff;display: none;transition: 1s;}
+.image-wrapper-k:hover .image-overlay {display: block;transition: 1s;opacity: 0.8;transition: 1s;}
+.image-wrapper-k .image-overlay .content {position: absolute;top: 36%;left: 50%;height: 20px;width: 150px;margin-top: -10px;margin-left: -75px;transition: 1s;}
+.gs-content cite{font-size: 24px;margin-top: 30px;color: lightgray;}
 
 
 /*----css do footer---*/
